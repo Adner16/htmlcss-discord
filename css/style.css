@@ -1,0 +1,153 @@
+
+/* general */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* utilities */
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* header */
+
+header{
+    height: 80px;
+    background-color: #3864e4
+    ;
+}
+
+.main-menu{
+    height: 80px;
+    
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.container.top{
+    height: 80px;
+}
+
+
+.col{
+    height: 80px;
+    float: left;
+}
+
+#logo{
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.col.w-25{
+    width: 20%;
+}
+
+.col.w-50{
+    width: 60%;
+}
+
+.menu-link{
+    display: inline;
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+.menu-link a{
+    text-decoration: none;
+    color: white;
+    line-height: 80px;
+}
+.menu-link a:hover{
+    text-decoration: underline;
+
+}
+
+#log-in{
+    color: black;
+    text-decoration: none;
+    line-height: 80px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+/* jumotron */
+
+.jumbotron{
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: top;
+    color: white;
+    position: relative;
+}
+
+.jumbo-content{
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.jumbotron p{
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 28px;
+}
+.jumbo-ul{
+    text-align: center;
+}
+
+.jumbo-link{
+    display: inline;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.scarica a{
+    text-decoration: none;
+    color: black;
+    height: 20px;
+}
+
+.jumbo-link.apri{
+    background-color: black;
+}
+.jumbo-link.apri a{
+    color: white;
+    text-decoration: none;
+}
+
+
