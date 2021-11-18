@@ -33,8 +33,11 @@ img{
     float: left;
 }
 .container{
-    width: 1100px;
+    width: 1200px;
     margin: auto;
+}
+.text-center{
+    text-align: center;
 }
 
 /* header */
@@ -158,26 +161,63 @@ header{
 
 /* main */
 
-.img-rana{
+.container.clearfix{
+    height: 700px;
+}
+
+.img-w-65{
     width: 65%;
     vertical-align: middle;
 }
 
-.testo-rana{
+.testo-w-35{
     width: 35%;
     margin-top: 35px;
 }
-.testo-rana h2{
+.testo-w-35 h2{
     font-size: 40px;
     margin-bottom: 30px;
 }
-.testo-rana p{
+.testo-w-35 p{
     line-height: 25px;
 }
 
-.first-content{
+.section-content{
     position: relative;
     top: 100px;
 }
+.testo-content{
+    margin-top: 35px;
+}
+.testo-content h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.testo-content p{
+    line-height: 25px;
+}
+.h2-container h2{
+    font-size: 25px;
+    display: inline-block;
+    padding: 50px 50px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.last-link{
+    display: inline;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: rgba(142,161,225,255);
+    margin: 0 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
 
 /* footer */
+
+footer{
+    position: relative;
+}
